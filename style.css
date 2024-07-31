@@ -53,13 +53,15 @@ body {
     vertical-align: top;
 }
 
-.number,
-.function,
-.operation {
+.button {
     margin-left: 8px;
     margin-top: 10px;
     border-radius: 7px;
     font-size: 30px;
+}
+
+.button:focus {
+    border: 3px solid black;
 }
 
 .operation,
